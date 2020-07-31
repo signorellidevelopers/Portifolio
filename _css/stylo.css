@@ -1,48 +1,84 @@
 body{
-    background-color: #efefef;
-    margin-top: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+ background-color: #e2dbdb8f;
+ width: 90vw;
+ height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ 
+
 }
+
 .header-inicio{
-background-image: url(../_css/imagens/foto-notbook.png);
-width: 600vw;
-height: 400px;
-background-repeat: no-repeat;
-background-attachment: fixed;
-margin-top: -15px;
+ 
+   width: 40%;
+   height: 110%;
+   margin-top: -1%;
+   margin-left: 5px;
+
 }
-.foto-perfil{
-    
+.img-header{
+  margin-top: 35px;
+  border-radius: 50%;
 }
+
 .header-div{
-background-image: radial-gradient(#ccc,rgb(165, 163, 163));
-}
+  background-image: url(../_css/imagens/bacground.png);
+  width: 100%;
+  height: 100%;
+ 
+} 
+
 .header-ul{
+    margin-top: -140px;
+margin-left: 155px;
+color: #fff;
     
 }
 .header-li{
+  list-style-position: inside;
+display: inline-block;
+font-size: 1em;
+text-transform: uppercase;
+
 
 }
-.header-a{
+.header-a i{
 
+}
+.section-principal{
+  
+    
 }
 .main-conteudo{
-
+  ;
 }
 .main-artcle{
-
+  
 }
 .main-p{
-
+width: 45%;
+height: 55%;
+padding: 35x;
+margin-left: 60%;
+margin-top: -500px;
 }
 .footer-rodape{
-
+color: #fff;
+margin-top: 200px;
+margin-left: 95px;
 }
 .footer-ul{
 
 }
 .footer-li{
-
+display: inline-block;
 }
 .footer-a{
-    
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 1em;
 }
