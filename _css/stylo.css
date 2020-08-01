@@ -3,11 +3,14 @@ body{
   left: 0;
   right: 0;
   bottom: 0px;
- background-color: #e2dbdb8f;
+ background-color: rgba(0,0,255,.4);
  width: 90vw;
  height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2.5em;
+text-align: justify;
 
+    
  
 
 }
@@ -23,6 +26,16 @@ body{
 .img-header{
   margin-top: 35px;
   border-radius: 50%;
+}
+.p-cite{
+  margin-top: 30%;
+  margin-left: 15%;
+  width: 60%;
+
+}
+.cite{
+  color:#fff;
+  
 }
 
 .header-div{
@@ -41,30 +54,34 @@ color: #fff;
 .header-li{
   list-style-position: inside;
 display: inline-block;
-font-size: 1em;
+font-size: 22px;
 text-transform: uppercase;
 
 
 }
-.header-a i{
-
+.header-a{
+text-decoration: none;
+color: #fff
+}
+.header-a:hover{
+  color: #f6f6f6b4;
+ text-decoration: underline;
 }
 .section-principal{
-  
+  background-image: linear-gradient(#0d304e #0472b1);
     
 }
-.main-conteudo{
-  ;
-}
+
 .main-artcle{
-  
+  background-image: linear-gradient(#0d304e #0472b1);
+    
 }
 .main-p{
 width: 45%;
 height: 55%;
 padding: 35x;
 margin-left: 60%;
-margin-top: -500px;
+margin-top: -400px;
 }
 .footer-rodape{
 color: #fff;
@@ -81,4 +98,7 @@ display: inline-block;
     color: #fff;
     font-size: 2em;
     letter-spacing: 1em;
+}
+.footer-a:hover{
+  color: blue;
 }
