@@ -1,0 +1,18 @@
+body, html{
+    width: 1200px;
+    height: 1600px;
+  margin: 0;
+  background-image: url(../_css/imagens/formatura.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-attachment: fixed;
+}
+.header-cursos{
+    width: 100vw;
+    height: 100vh;
+    margin: -30px;
+   
+}
+h1{
+    text-align: center;
+}
